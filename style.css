@@ -1,0 +1,156 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(229, 23%, 9%); }
+*{
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.nav-desktop{
+  display: none;
+}
+.margin-60{
+  margin-left: 16px;
+  margin-right:16px 
+}
+.margin-left-60{
+  margin-left: 16px;}
+   a{
+    text-decoration: none
+  }
+
+@media screen and (min-width:500px) {
+  
+  
+.burger, .bar{
+  display: none;
+}  
+.nav-desktop{
+  display: inline;
+}
+
+.get-start{
+  float: left;
+}
+  
+.margin-60{
+  margin-left: 60px;
+  margin-right:60px 
+}
+.margin-top,{
+  margin-top: 10px
+}
+.margin-left{
+  margin-left: 16px
+}
+.margin-left-60{
+  margin-left: 60px;}
+  .circle-left{
+    left: -27%
+  } 
+  h1{
+    float:left;
+  }
+
+  .sidenav a{
+    text-decoration: none;
+    padding-left: 10px;
+  }
+
+   
+}
+
+.footer{
+margin-bottom:0px;
+}
+
+.btn-try{
+  margin-left: 50%;
+  text-align: center;
+  width: 40%;
+}
+
+.adsPic{
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-left: 50px;
+  padding: 12px;
+}
+
+.name{
+  margin-left: 20px;
+  color: purple;
+  font-size: xx-large;
+font-family: cursive;}
+
+.rate{
+  margin-left: 150px;
+}
+
+.free{
+  text-align: center;
+}
+
+.btn-chat{
+   margin: 10px;
+   width: 70%;
+   margin-left: 100px;
+}
+
+.Tor{
+   color: purple;
+   font-size: xx-large;
+   margin-left: 30%;
+}
+
+.love{
+  font-size: xx-large;
+  margin-left: 10%;
+}
+
+.LoveImg{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  padding: 12px;
+}
+
+.bg{
+  background-image: url("bg.jpg");
+  background-attachment: fixed;
+}
+
+.trt-Img{
+  border-top-right-radius: 2%;
+  border-top-left-radius: 2%;
+}
+
+.center{
+  margin-left: 8%;
+}
+
+     .inline{
+         display: inline-block;
+         margin-left: 50px;
+     }
+
+   #reading{
+      margin-left: 35px;
+      /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+   }
+
+   .palm{
+     font-size: xx-large;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+
+   .one{
+     font-size: larger;
+     border: 5%; 
+     background: pink;
+     color: cornsilk;
+     padding: 5px;
+   }

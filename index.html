@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!--CSS LINK-->
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style/media.css"> -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+<!--SCRIPT LINK-->
+ <script src="script.js"></script>
+ <script src="jquery.js"></script>
+ <!-- <script src="script/search.js"></script> -->
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   
+  </style>
+</head>
+<body id="feature">
+
+      <div class="bg">
+        <div class="w3-margin-top margin-60"> 
+  
+          <h1 class="logo"><b class="w3-text-white"> &#9798 Psychic Medium &#9795</b></h1>
+          <br><br><br><br>
+          <span class="nav-desktop sidenav" >
+        
+          <span>
+            <a href="#" 
+                class="w3-text-white margin-top w3-padding w3-round-xlarge w3-hover-orange"
+                    onclick="scrolling('feature');">
+                   Features
+                  </a> </span>
+                  
+                  <span>
+                      <a href="#"
+                       class="w3-text-white margin-top w3-padding w3-round-xlarge w3-hover-orange"
+                      onclick="scrolling('chat')">Chat</a>
+                    </span>
+
+                  <span>
+                    <a href="#" 
+                    class="w3-text-white margin-top w3-padding w3-round-xlarge w3-hover-orange"
+                    onclick="scrolling('reading');">Reading</a>
+                  </span>
+                  
+
+                 <span>
+                   <a href="#" 
+                       class="w3-text-white margin-top w3-padding w3-round-xlarge w3-hover-orange"
+                       onclick="alert('product is not available');">
+                          Product
+                            </a>
+                    </span>
+        
+          
+          
+         </div>
+          
+        
+            <br><br><br>
+            
+        <div class="w3-row">
+          <div class="w3-col s12  m5 w3-right">
+          <div>
+            
+            <img src="tarot.jpg" alt="" class="trt-Img w3-animate-zoom w3-mobile w3-paddin " style="width: 100%; height: 100%;"></div>
+          </div>
+          <br>
+          <br>
+        
+          
+        
+        
+          <div class="w3-col s12 m6 w3-left  ">
+          <h1 class="margin-left-60 w3-text-white" ><b> Tarot Reading 101: What is it and how can you do it   </b></h1>
+        
+          <button 
+            class="btn-try w3-btn w3-orange w3-round-xxlarge w3-text-white"
+              onclick="scrolling('newP')"
+          >
+            Try it now
+          </button>
+        
+          <br><br>
+        
+            <div> 
+      </div>
+
+          <p class="margin-left-60 w3-left w3-margin-right"> 
+            Get a free reading only on sunday morning only 
+          </p>
+   </div>
+ 
+      </div>
+          </div>
+              </div>
+                 <br>
+
+
+                 <div class="w3-card-4 w3-round-xlarge w3-margin">
+
+                
+                 <div id="chat">
+        <div id="newP ">
+
+            <div class="block">
+               <img class="adsPic" src="full.jpg" alt="">
+                  <b class="name">Psychic Medium </b>
+                    
+                 
+                    <div class="rate">
+                        &#9733 4.5 &#128172 30k
+                          <br>
+                       <b> $4.99/</b>minutes                          
+                    </div>
+
+                    <div class="free">
+                        <b class="w3-xxxlarge">&#9958</b> 
+                           <b class="w3-xxlarge"> 3 min free reading  </b> 
+                    </div>
+               
+                  <a href="mailto:ayelekei11@gmail.com">
+                     <button 
+                        class="btn-chat w3-btn w3-orange 
+                        w3-round-xxlarge w3-text-white">
+                           Chat
+                     </button>                              
+                  </a>
+                        
+                    <br><br>
+
+                        <div id="reading">
+
+                          <th class="one">Love Reading</th>
+                          <th>Future Reading</th>
+                          <th>Palm Reading</th>
+
+                            <div class="palm">Palm Reading</div>
+                               <br>
+                            <div class="text">
+                               <P> Palm reading, also know as palmistry or Chromancy ,
+                                 <br>
+                                   is a mystical art...
+                                </P>
+                            </div>
+                        </div>
+                    
+               </div>
+            </div>  
+          </div>
+              <!-- End of newP -->
+
+              <!-- <div id="reading">
+                   <h1 class="Tor">
+                       <b>Type of Reading</b>
+                    </h1>
+                        <br><br>
+                        <br><br><br>
+
+                        <div class="w3-row">
+
+                          <div class="w3-col m4">
+                            
+                          <b class="love">Love Reading</b>
+                          <img class="LoveImg" src="love.jpg" alt="">
+                     
+                          </div>
+
+                          <div class="w3-col m4">
+                            
+                            <b class="love">money Reading</b>
+                            <img class="LoveImg" src="money.jpg" alt="">
+                      
+  
+                            </div>
+
+                            <div class="w3-col m4">
+                            
+                              <b class="love">General Reading</b>
+                              <img class="LoveImg" src="general.jpg" alt="">
+                        
+    
+                              </div>
+
+                        </div>
+                    
+              </div> -->
+
+
+              
+    </div>
+  </div>
+
+  <script>
+    function w3_open() {
+  document.getElementsByClassName("w3-sidenav")[0].style.display="block"
+  }
+  function w3_close(){
+  document.getElementsByClassName("w3-sidenav")[0].style.display="none" 
+  }
+  </script>
+</body>
+</html>
